@@ -1,0 +1,32 @@
+.parentBoxTeam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.teamBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.deleteButton {
+  padding: 5px 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.deleteButton:hover{
+  transition: .7s;
+  background-color: red;
+}

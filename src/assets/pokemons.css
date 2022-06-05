@@ -1,0 +1,32 @@
+.parentBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pokeBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 25px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #CDF0EA;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(191,191,191,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(191,191,191,1);
+  box-shadow: 10px 10px 5px 0px rgba(191,191,191,1);
+}
+
+.pokeBox:hover{
+  transition: .7s;
+  background-color: white;
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+}
